@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Bootstrap Visualization Dashboard</title>
+    </head>
+    
+    <body>
+    
+        <!-- the left side of the page: -->
+        
+        <div class ="container">
+            <nav class="navbar">
+                <div class = "row">
+                    <ul>
+                        <li>
+                            <a href="/index.html">Lattitude</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Max Temperature</a>
+                                <a class="dropdown-item" href="#">Humidity</a>
+                                <a class="dropdown-item" href="#">Cloudiness</a>
+                                <a class="dropdown-item" href="#">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="comparisons.html">Comparison</a>
+                        </li>
+                        <li>
+                            <a href="data.html">Data</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        
+        <div class="col-md-8">
+        
+            <h1>
+                Summary: Latitude vs. X
+            </h1>
+        
+            <a href=" "> <!-- href needs to be a reference to page of the first image. --> 
+                <img src="../Resources/assets/images/Fig1.png" alt="City Latitude vs. Maximum Temperature">
+            </a> 
+            
+            <p>
+            The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled datat from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
+            </p>
+        
+            <p>
+            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+            </p>
+        
+        </div>
+    
+        
+        <!-- the right side of the page: -->
+        
+        <div class = "col-md-4">
+        
+            <h2>
+            Visualizations:
+            </h2>
+            
+            <a href="maximum%20temperature.html"> 
+                <img src="../Resources/assets/images/Fig1.png" alt="City Latitude vs. Maximum Temperature">
+            </a>
+            
+            <a href="humidity.html">
+                <img src="../Resources/assets/images/Fig2.png" alt = "City Latitude vs. Humidity">
+            </a>
+            
+            <a href="cloudiness.html">
+                <img src="../Resources/assets/images/Fig3.png" alt = "City Latitude vs. Cloudiness">
+            </a>
+
+             <a href="wind%20speed.html">
+                <img src="../Resources/assets/images/Fig4.png" alt = "City Latitude vs. Wind Speed">
+            </a>
+
+        </div>
+    
+        </div>
+
+    </body>
+    
+</html>
